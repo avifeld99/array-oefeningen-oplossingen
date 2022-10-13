@@ -15,7 +15,7 @@ public class MainApp {
         Scanner in = new Scanner(System.in);
 
         System.out.print("Input the string: ");
-        String str = in.nextLine();
+        String str = in.nextLine().toLowerCase();
 
         System.out.print("Number of vowels in the string: " +
                 search.countVowels(str)+"\n");

@@ -12,7 +12,7 @@ public class Question03 {
 
             for (int indexInner = indexOuter + 1; indexInner < myArr.length; indexInner++) {
 
-                if ((myArr[indexOuter] == myArr[indexInner]) && (indexOuter != indexInner)) {
+                if ((myArr[indexOuter] == myArr[indexInner])) {
                     System.out.println("Duplicate Element : " + myArr[indexInner]);
                 }
 
